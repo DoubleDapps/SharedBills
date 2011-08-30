@@ -1666,7 +1666,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>336366570.79001898</real>
+		<real>336367748.55245</real>
 		<string>{0, 418}</string>
 		<string>{418, 0}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
@@ -1899,19 +1899,19 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>231</integer>
+					<integer>245</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>236</integer>
+					<integer>250</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>239</integer>
+					<integer>253</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>240</integer>
+					<integer>254</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1952,25 +1952,43 @@
 					<key>CF$UID</key>
 					<integer>158</integer>
 				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>187</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>199</integer>
+					<integer>188</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>189</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>193</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>219</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>225</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>231</integer>
+				</dict>
 			</array>
 		</dict>
-		<string>Xcode.IDEKit.EditorDocument.SourceCodeComparisonEditor</string>
+		<string>Xcode.IDEKit.EditorDocument.QuickLookComparisonEditor</string>
 		<string>Xcode.Xcode3ProjectSupport.EditorDocument.Xcode3Project</string>
+		<string>Xcode.IDEKit.EditorDocument.SourceCode-from-Plist</string>
+		<string>Xcode.IDEKit.EditorDocument.SourceCodeComparisonEditor</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1979,10 +1997,6 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>188</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>190</integer>
@@ -1994,37 +2008,7 @@
 					<key>CF$UID</key>
 					<integer>192</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>196</integer>
-				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>161</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>189</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>93</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills/SharedBillsAppDelegate.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -2050,7 +2034,18 @@
 				<integer>93</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/project.xcworkspace/xcuserdata/Don.xcuserdatad/UserInterfaceState.xcuserstate</string>
+			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/.DS_Store</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array/>
+			<key>NS.objects</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -2060,95 +2055,16 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>154</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>152</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>151</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>193</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>194</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>195</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>{0, 0}</string>
-		<string>{0, 422}</string>
-		<real>336365799.72321099</real>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>38</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>154</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>151</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>152</integer>
-				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>193</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>197</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>198</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>336366570.78964502</real>
-		<string>{0, 1085}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>38</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>200</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>202</integer>
+					<integer>196</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2166,7 +2082,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>201</integer>
+				<integer>195</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2188,38 +2104,38 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>203</integer>
+					<integer>197</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>204</integer>
+					<integer>198</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>205</integer>
+					<integer>199</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>206</integer>
+					<integer>200</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>201</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>207</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>213</integer>
+					<integer>208</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>214</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>224</integer>
+					<integer>218</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2244,7 +2160,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>208</integer>
+					<integer>202</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2258,11 +2174,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>209</integer>
+					<integer>203</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>211</integer>
+					<integer>205</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2291,7 +2207,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>210</integer>
+					<integer>204</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2321,7 +2237,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>212</integer>
+					<integer>206</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2337,7 +2253,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>215</integer>
+					<integer>209</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2345,22 +2261,22 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>223</integer>
+				<integer>217</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>216</integer>
+				<integer>210</integer>
 			</dict>
 			<key>selection</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>218</integer>
+				<integer>212</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>217</integer>
+				<integer>211</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/</string>
@@ -2375,22 +2291,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>219</integer>
+					<integer>213</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>220</integer>
+					<integer>214</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>221</integer>
+					<integer>215</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>222</integer>
+					<integer>216</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2429,14 +2345,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>226</integer>
+					<integer>220</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>227</integer>
+					<integer>221</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2486,11 +2402,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>228</integer>
+					<integer>222</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>229</integer>
+					<integer>223</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2498,13 +2414,99 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>224</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>336367748.551943</real>
+		<string>{0, 418}</string>
+		<string>{418, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>226</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>228</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>227</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>93</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/xcuserdata/Don.xcuserdatad/xcschemes/xcschememanagement.plist</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>154</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>152</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>151</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>230</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>336366570.78956002</real>
-		<string>{0, 418}</string>
-		<string>{418, 0}</string>
+		<string>{0, 0}</string>
+		<real>336367748.55201298</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2519,18 +2521,248 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>233</integer>
+					<integer>234</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>236</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>234</integer>
+					<integer>238</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>235</integer>
+					<integer>240</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>243</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>233</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>93</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/project.xcworkspace/xcuserdata/Don.xcuserdatad/UserInterfaceState.xcuserstate</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>235</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>93</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills/SharedBillsAppDelegate.h</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>237</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>93</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/xcuserdata/Don.xcuserdatad/xcschemes/SharedBills.xcscheme</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>154</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>152</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>151</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>239</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>336367746.39637798</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>154</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>152</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>151</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>241</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>242</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>{0, 422}</string>
+		<real>336365799.72321099</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>154</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>152</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>151</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>244</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>336367747.04730302</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>246</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>247</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>248</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>249</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2548,14 +2780,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>237</integer>
+					<integer>251</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>238</integer>
+					<integer>252</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2585,15 +2817,27 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>241</integer>
+					<integer>226</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>243</integer>
+					<integer>255</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>245</integer>
+					<integer>257</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>259</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>261</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>263</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2611,7 +2855,25 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>242</integer>
+				<integer>256</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/xcuserdata/Don.xcuserdatad/xcschemes/SharedBills.xcscheme</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>258</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills.xcodeproj/project.xcworkspace/xcuserdata/Don.xcuserdatad/UserInterfaceState.xcuserstate</string>
@@ -2629,7 +2891,25 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>244</integer>
+				<integer>260</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/.DS_Store</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>262</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Don/Documents/iPhone%20Developing/SharedBills/SharedBills/SharedBills/SharedBillsAppDelegate.h</string>
@@ -2647,7 +2927,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>216</integer>
+				<integer>210</integer>
 			</dict>
 		</dict>
 	</array>
