@@ -18,6 +18,8 @@
 		F6C7D343140D976400326BEA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C7D342140D976400326BEA /* SecondViewController.m */; };
 		F6C7D346140D976400326BEA /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6C7D344140D976400326BEA /* FirstView.xib */; };
 		F6C7D349140D976400326BEA /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6C7D347140D976400326BEA /* SecondView.xib */; };
+		F6C7D350140D994700326BEA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D34F140D994700326BEA /* CoreData.framework */; };
+		F6C7D352140D9AB000326BEA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D351140D9AB000326BEA /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F6C7D342140D976400326BEA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F6C7D345140D976400326BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		F6C7D348140D976400326BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		F6C7D34F140D994700326BEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F6C7D351140D9AB000326BEA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C7D352140D9AB000326BEA /* libsqlite3.dylib in Frameworks */,
+				F6C7D350140D994700326BEA /* CoreData.framework in Frameworks */,
 				F6C7D32A140D976400326BEA /* UIKit.framework in Frameworks */,
 				F6C7D32C140D976400326BEA /* Foundation.framework in Frameworks */,
 				F6C7D32E140D976400326BEA /* CoreGraphics.framework in Frameworks */,
@@ -74,6 +80,8 @@
 		F6C7D328140D976300326BEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6C7D351140D9AB000326BEA /* libsqlite3.dylib */,
+				F6C7D34F140D994700326BEA /* CoreData.framework */,
 				F6C7D329140D976400326BEA /* UIKit.framework */,
 				F6C7D32B140D976400326BEA /* Foundation.framework */,
 				F6C7D32D140D976400326BEA /* CoreGraphics.framework */,
