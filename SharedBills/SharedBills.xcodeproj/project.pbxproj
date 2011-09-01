@@ -20,6 +20,7 @@
 		F6C7D349140D976400326BEA /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6C7D347140D976400326BEA /* SecondView.xib */; };
 		F6C7D350140D994700326BEA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D34F140D994700326BEA /* CoreData.framework */; };
 		F6C7D352140D9AB000326BEA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D351140D9AB000326BEA /* libsqlite3.dylib */; };
+		FC6CBD1D140F14D5002274EE /* NewTransViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6CBD1B140F14D5002274EE /* NewTransViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		F6C7D348140D976400326BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		F6C7D34F140D994700326BEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F6C7D351140D9AB000326BEA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FC6CBD1A140F14D5002274EE /* NewTransViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTransViewController.h; path = ../NewTransViewController.h; sourceTree = "<group>"; };
+		FC6CBD1B140F14D5002274EE /* NewTransViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewTransViewController.m; path = ../NewTransViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		F6C7D32F140D976400326BEA /* SharedBills */ = {
 			isa = PBXGroup;
 			children = (
+				FC6CBD1A140F14D5002274EE /* NewTransViewController.h */,
+				FC6CBD1B140F14D5002274EE /* NewTransViewController.m */,
 				F6C7D338140D976400326BEA /* SharedBillsAppDelegate.h */,
 				F6C7D339140D976400326BEA /* SharedBillsAppDelegate.m */,
 				F6C7D33B140D976400326BEA /* MainWindow.xib */,
@@ -182,6 +187,7 @@
 				F6C7D33A140D976400326BEA /* SharedBillsAppDelegate.m in Sources */,
 				F6C7D340140D976400326BEA /* FirstViewController.m in Sources */,
 				F6C7D343140D976400326BEA /* SecondViewController.m in Sources */,
+				FC6CBD1D140F14D5002274EE /* NewTransViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				F6C7D34E140D976400326BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
