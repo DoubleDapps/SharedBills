@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewTransViewController : UITableViewController
+@interface NewTransViewController : UITableViewController <UITextFieldDelegate>
 
 @end

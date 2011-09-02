@@ -97,22 +97,26 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
+    CGRect CellFrame = CGRectMake(0, 0, 300, 44);
+    CGRect textFrame = CGRectMake(10, 10, 290, 34);
+    //CGRect Label2Frame = CGRectMake(10, 33, 290, 25);
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-        
+        //cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithFrame:CellFrame reuseIdentifier:CellIdentifier] autorelease];
         
     }
-    //NSString * theText;
-    //theText = [NSString stringWithFormat:@"Section: %d , Row: %d ",indexPath.section,indexPath.row];
-    cell.textLabel.text = [NSString stringWithFormat:@"section: %d , row : %d ",indexPath.section, indexPath.row];
-    //[theText dealloc];
+    UITextField *textView;
+    textView = [[UITextField alloc] initWithFrame:textFrame];
+    textView.placeholder = @"Name";
+    textView.delegate = self;
     
-    // Configure the cell...
-    
+    [cell.contentView addSubview:textView];
+
     return cell;
 }
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -165,7 +169,16 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
-    NSLog(@"Clicked section: %d , row %d ",indexPath.section,indexPath.row );
+    UITableViewCell *cell = (UITableViewCell *)[(UITableView *)self.view cellForRowAtIndexPath:indexPath];
+    UITextField *txtFld = cell.contentView.subviews.lastObject;
+    NSString *content = txtFld.text;
+    NSLog(@"Selected %@",content);
+}
+
+#pragma mark - textview delagate
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    [theTextField resignFirstResponder];
+    return TRUE;
 }
 
 @end
