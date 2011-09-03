@@ -219,15 +219,21 @@
 
 - (BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
-    if ([textField tag] == 2)
+    if ([textField tag] == 2) //Amount Field
     {
-        [storedValue appendString:string];
+        if ([string isEqualToString:@""] && range.length == 1) { 
+            //backspace key pressed
+            [storedValue deleteCharactersInRange:NSMakeRange(storedValue.length-1 ,1)]; 
+        }
+        else{
+            //number key pressed
+            [storedValue appendString:string];
+        }
+        //update label either way
         NSString *newAmount = [self formatCurrencyValue:([storedValue doubleValue]/100)];
-        
         [textField setText:[NSString stringWithFormat:@"%@",newAmount]];
         return NO;
     }
-    
     //Returning yes allows the entered chars to be processed
     return YES;
 }
@@ -243,8 +249,5 @@
     return [numberFormatter stringFromNumber:c];
 }
 
-- (void)deleteBackward{
-    [storedValue appendString:@"9"];
-}
 
 @end
