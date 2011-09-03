@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DatePickerController.h"
 
 
-@interface NewTransViewController : UITableViewController <UITextFieldDelegate> {
+@interface NewTransViewController : UITableViewController <UITextFieldDelegate, DatePickerControllerDelegate> {
         
     NSMutableString *storedValue;
     

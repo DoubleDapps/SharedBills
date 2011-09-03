@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6A8E1EE14125CD800A94FA1 /* DatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8E1ED14125CD800A94FA1 /* DatePickerController.m */; };
 		F6C7D32A140D976400326BEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D329140D976400326BEA /* UIKit.framework */; };
 		F6C7D32C140D976400326BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D32B140D976400326BEA /* Foundation.framework */; };
 		F6C7D32E140D976400326BEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C7D32D140D976400326BEA /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6A8E1EC14125CD800A94FA1 /* DatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
+		F6A8E1ED14125CD800A94FA1 /* DatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
 		F6C7D325140D976300326BEA /* SharedBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C7D329140D976400326BEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6C7D32B140D976400326BEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 		F6C7D32F140D976400326BEA /* SharedBills */ = {
 			isa = PBXGroup;
 			children = (
+				F6A8E1EC14125CD800A94FA1 /* DatePickerController.h */,
+				F6A8E1ED14125CD800A94FA1 /* DatePickerController.m */,
 				FC6CBD1A140F14D5002274EE /* NewTransViewController.h */,
 				FC6CBD1B140F14D5002274EE /* NewTransViewController.m */,
 				F6C7D338140D976400326BEA /* SharedBillsAppDelegate.h */,
@@ -188,6 +193,7 @@
 				F6C7D340140D976400326BEA /* FirstViewController.m in Sources */,
 				F6C7D343140D976400326BEA /* SecondViewController.m in Sources */,
 				FC6CBD1D140F14D5002274EE /* NewTransViewController.m in Sources */,
+				F6A8E1EE14125CD800A94FA1 /* DatePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

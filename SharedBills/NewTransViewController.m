@@ -137,9 +137,15 @@
             
             [cell.contentView addSubview:textView];
         }else{
-            CGRect CellFrame = CGRectMake(0, 0, 300, 44);
             
-              cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
+            CGRect CellFrame = CGRectMake(0, 0, 300, 44);
+            CGRect textFrame = CGRectMake(10, 10, 290, 34);
+            
+            cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
+            
+            UILabel * lbl = [[UILabel alloc] initWithFrame:textFrame];
+            lbl.text = @"";
+            [cell.contentView addSubview:lbl];
         
         }
         
@@ -202,13 +208,35 @@
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
+     [detailViewController release]
      */
+    if (indexPath.section ==0 && indexPath.row == 2) {
+        //present date picker
+        DatePickerController *screen = [[[DatePickerController alloc] init] autorelease];
+        screen.delegate = self;
+        [self presentModalViewController:screen animated:YES];
+    }
+    
     UITableViewCell *cell = (UITableViewCell *)[(UITableView *)self.view cellForRowAtIndexPath:indexPath];
     UITextField *txtFld = cell.contentView.subviews.lastObject;
     NSString *content = txtFld.text;
     
     NSLog(@"Selected %@",content);
+}
+
+#pragma mark - datepicker controller delagate
+
+- (void) datePickerController:(DatePickerController *)controller didPickDate:(NSDate *)date {
+    //[self doSomethingWithDate:date];
+    NSString *dateString =[[NSDateFormatter alloc] stringFromDate:date];
+    //[[self.tableView cellForRowAtIndexPath:[self.tableView indexPathForSelectedRow]] textLabel].text 
+    //                       = dateString;
+    
+    UITableViewCell *cell = (UITableViewCell *)[self.tableView cellForRowAtIndexPath:[self.tableView indexPathForSelectedRow]];
+    UILabel *txtFld = cell.contentView.subviews.lastObject;
+    txtFld.text = dateString;
+    
+    [controller dismissModalViewControllerAnimated:YES];
 }
 
 #pragma mark - textview delagate
