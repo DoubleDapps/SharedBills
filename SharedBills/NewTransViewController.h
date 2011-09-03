@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewTransViewController : UITableViewController <UITextFieldDelegate>
+@interface NewTransViewController : UITableViewController <UITextFieldDelegate> {
+        
+    NSMutableString *storedValue;
+    
+    }
+
+@property (nonatomic, retain) NSMutableString *storedValue;
+
+-(NSString*) formatCurrencyValue:(double)value;
 
 @end

@@ -10,11 +10,14 @@
 
 @implementation NewTransViewController
 
+@synthesize storedValue;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        
     }
     return self;
 }
@@ -32,6 +35,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    storedValue = [[NSMutableString alloc] initWithCapacity:4];
+    [storedValue setString:@""];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -85,7 +90,7 @@
 {
     // Return the number of rows in the section.
    if (section == 0){
-        return 2;
+        return 3;
     
    }else{
      return 3;
@@ -96,24 +101,54 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    CGRect CellFrame = CGRectMake(0, 0, 300, 44);
-    CGRect textFrame = CGRectMake(10, 10, 290, 34);
-    //CGRect Label2Frame = CGRectMake(10, 33, 290, 25);
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        //cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-        cell = [[[UITableViewCell alloc] initWithFrame:CellFrame reuseIdentifier:CellIdentifier] autorelease];
+    UITableViewCell *cell;
+    
+    if (indexPath.section == 0){
+        if (indexPath.row == 0) {
+            
+            CGRect CellFrame = CGRectMake(0, 0, 300, 44);
+            CGRect textFrame = CGRectMake(10, 10, 290, 34);
+            
+            cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
+            
+            UITextField *textView;
+            textView = [[UITextField alloc] initWithFrame:textFrame];
+            textView.tag = 1;
+            textView.placeholder = @"Title";
+            textView.delegate = self;
+            textView.clearButtonMode = true;
+            
+            [cell.contentView addSubview:textView];
+        }else if (indexPath.row == 1) {
+            
+            CGRect CellFrame = CGRectMake(0, 0, 300, 44);
+            CGRect textFrame = CGRectMake(10, 10, 290, 34);
+            
+            cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
+            
+            UITextField *textView;
+            textView = [[UITextField alloc] initWithFrame:textFrame];
+            textView.tag = 2;
+            textView.placeholder = @"$0.00";
+            textView.delegate = self;
+            textView.clearButtonMode = true;
+            textView.keyboardType = UIKeyboardTypeNumberPad;
+            
+            [cell.contentView addSubview:textView];
+        }else{
+            CGRect CellFrame = CGRectMake(0, 0, 300, 44);
+            
+              cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
         
-    }
-    UITextField *textView;
-    textView = [[UITextField alloc] initWithFrame:textFrame];
-    textView.placeholder = @"Name";
-    textView.delegate = self;
-    
-    [cell.contentView addSubview:textView];
-
+        }
+        
+        }else{
+            CGRect CellFrame = CGRectMake(0, 0, 300, 44);
+                        
+              cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
+        
+        }
     return cell;
 }
 
@@ -172,6 +207,7 @@
     UITableViewCell *cell = (UITableViewCell *)[(UITableView *)self.view cellForRowAtIndexPath:indexPath];
     UITextField *txtFld = cell.contentView.subviews.lastObject;
     NSString *content = txtFld.text;
+    
     NSLog(@"Selected %@",content);
 }
 
@@ -179,6 +215,36 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
     [theTextField resignFirstResponder];
     return TRUE;
+}
+
+- (BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if ([textField tag] == 2)
+    {
+        [storedValue appendString:string];
+        NSString *newAmount = [self formatCurrencyValue:([storedValue doubleValue]/100)];
+        
+        [textField setText:[NSString stringWithFormat:@"%@",newAmount]];
+        return NO;
+    }
+    
+    //Returning yes allows the entered chars to be processed
+    return YES;
+}
+
+-(NSString*) formatCurrencyValue:(double)value
+{
+    NSNumberFormatter *numberFormatter = [[[NSNumberFormatter alloc] init]autorelease];
+    [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+    [numberFormatter setCurrencySymbol:@"$"];
+    [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    
+    NSNumber *c = [NSNumber numberWithFloat:value];
+    return [numberFormatter stringFromNumber:c];
+}
+
+- (void)deleteBackward{
+    [storedValue appendString:@"9"];
 }
 
 @end
