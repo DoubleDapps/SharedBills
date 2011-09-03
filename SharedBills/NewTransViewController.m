@@ -144,7 +144,7 @@
             cell = [[[UITableViewCell alloc] initWithFrame:CellFrame] autorelease];
             
             UILabel * lbl = [[UILabel alloc] initWithFrame:textFrame];
-            lbl.text = @"";
+            lbl.text = @"Don't click here";
             [cell.contentView addSubview:lbl];
         
         }
